@@ -22,7 +22,7 @@ window.onload = function() {
   let newwhat = what[Math.floor(Math.random() * what.length)];
   let newwhen = when[Math.floor(Math.random() * when.length)];
 
-  let final = newwho + newaction + newwhat + newwhen;
+  let final = newwho + " " + newaction + " " + newwhat + " " + newwhen;
 
   let finalparahtml = document.querySelector("#excuse");
   finalparahtml.innerHTML = final;
